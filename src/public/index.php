@@ -9,17 +9,17 @@
     <table>
       <tr>
         <td>タイトル（必須）</td>
-        <td><input name="title"></td>
+        <td><input name="title" placeholder="タイトル"></td>
       </tr>
 
       <tr>
         <td>Email（必須）</td>
-        <td><input name="email"></td>
+        <td><input name="email" placeholder="Emailアドレス"></td>
       </tr>
 
       <tr>
         <td>お問い合わせ内容（必須）</td>
-        <td><textarea name="content"></textarea></td>
+        <td><textarea name="content" placeholder="お問い合わせ内容（1000文字まで）をお書き下さい"></textarea></td>
       </tr>
 
       <tr>
