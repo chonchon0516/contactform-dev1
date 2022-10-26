@@ -30,6 +30,11 @@ if (!empty($title) && !empty($email) && !empty($content)) {
       </a>
     ';
 }
+if (empty($title) && empty($email) && empty($content)) {
+  echo "「タイトル」「Email」「お問い合わせ内容」のどれかが記入されていません！
+";
+}
+
 ?>
 
 <body>
